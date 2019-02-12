@@ -1,0 +1,30 @@
+/*CSS properties for the table tag */
+
+.title{
+	text-align: center;
+	border    : 1px solid;
+	padding   : 10px;
+	margin    : 10px;
+}
+table, td,th{   border    : 1px solid; }
+
+.tablecntrn{
+	width     : 700px;
+	height    : 450px;
+	border    : 1px solid;
+	margin    : 10px;
+}
+.
+ 
+ /*.row{
+ 	margin    : 5px;
+ 	padding   : 5px;
+ }
+
+ 	li{
+ 	list-style: none;
+ 	border    : 1px solid;
+ 	width     : 86px;
+ }
+
+ ul*/		

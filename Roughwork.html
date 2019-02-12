@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Demonstrating Pseudoclasses.</title>
+	<style type="text/css">
+		a{
+			text-decoration: none;
+		}
+		a:focus{
+			background: gray;
+		}
+		a:hover{
+			color: pink;
+		}
+		a:active{
+			background: pink;
+		}
+		a:visited{
+	        background: red;
+		}
+		/* div:hover{
+		     background:lighblue;
+		     font-size:15px;
+		}*/
+		p: firsst-child{
+			background: orange;
+		}
+		p: nth-child(3){
+			background: orange;
+		}
+		.abc:last-child{
+			background: red;
+		}
+
+	</style>
+</head>
+<body>
+      <a href="http://www.amazon.com">Amazon</a>
+      <a href="http://www.flipkart.com">Flipkart</a>
+      <a href="http://www.Krishna.com">Krishna</a>
+      <div>Hello</div>
+      <div>
+      	<p>Suresh</p>
+      	<p>Rakesh</p>
+      	<p>Ramesh</p>
+      	<p>Krish</p>
+      </div>
+      
+</body>		
+</html>

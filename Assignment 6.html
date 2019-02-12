@@ -1,0 +1,183 @@
+<!--registration page using the form tag and the GET communication-->
+<html>
+<head>
+	<title> Registration page</title>
+     <style type="text/css">
+     		
+.header, .footer{
+		border     : 1px solid;
+		text-align : center;
+		font-weight: bolder;
+		margin     : 10px;
+		padding    : 10px;
+	}
+
+.container{
+		border     : 1px solid;
+		height     : 1163px;
+		width:1000px;
+		margin     : 10px;
+		padding    : 10px;
+		overflow   : auto;
+		position   : absolute;
+
+	}
+.innerblock{
+	    border     : 1px solid;
+	    height     : 250px;
+	    width:900px;
+	    margin    : 25px;
+	    padding    : 10px;
+	    position   : absolute;
+   }
+ .headbox{
+ 	border         : 1px solid;
+ 	text-align     : center;
+ 	margin         : 4px;
+ 	padding        : 4px;
+ 	width          : 121px;
+ 	height         : 30px;
+ 	right          : 30px;
+ 	position       : absolute;
+  }
+  .pd {
+   top             : -25px;
+   left            : 120px;
+   position        : absolute;
+       }
+
+   .add{
+   	top            : 376px;
+   	left           : 99px;
+   	position       : absolute;
+   }
+
+   .edu{
+   	top            : 666px;
+   	left           : 107px;
+   	position       : absolute;
+   	   }
+
+   	 .abt{
+   	 top           : 963px;
+   	 left          : 113px;
+   	 position      : absolute;
+   	 }
+
+  li{
+	padding        : 10px;
+    }
+
+    #register{
+    	text-align : right;
+    }
+    
+
+     </style>
+</head>
+   	<body>
+   		<form action="http://www.premgyan.com" method="GET">
+		   <div class="header">Students Registration Page.</div>   <!-- Header -->
+		       <div class="container">   <!-- start container-->
+		     	   <div class="innerblock"> <!-- Contains the pd, addr., edu. etc.-->
+		     	   	    <div class="headbox pd">Personal Details</div>  <!-- Innerblock heading-->
+		     	          <ul>
+				     	   		<li><label for="uname">Name:</label>
+				     	   			<input type="text" name="uname">
+				     	   		</li>
+				     	   		<li id="uid"><label for="uid">UID:</label>
+				     	   		    <input type="text" name="uid">
+				     	   		</li>
+				     	   		<li><label for="gender">Gender:</label>
+				     	   		    <input type="radio" name="gender">M
+				     	   		    <input type="radio" name="gender">F
+				     	   		</li>
+				     	   		<li><label for="pwd">Account password:</label>
+				     	   			<input type="password" name="pwd">                                
+				     	   		</li>
+				     	   		<li><label for="age">Age:</label>
+				     	   			<input type="text" name="age">
+
+				     	   		</li>
+			     	   	  </ul>
+		     	   </div>   <!-- inerblock end -->
+
+		     	    <!--<div class="innerblock"> <!-- Contains the pd, addr., edu. etc.-->
+		     	   	    <div class="headbox add">Address</div>  <!-- Innerblock heading
+		     	          <ul>
+				     	   		<li><label for="state">State:</label>
+				     	   			<select>
+				     	   				<option>Arunachal Pradesh</option>
+				     	   				<option>Assam</option>
+				     	   				<option>Bihar</option>
+				     	   				<option>Chennai</option>
+				     	   				<option>Gujarat</option>
+				     	   				<option>Goa</option>
+				     	   				<option>Jharkhand</option>
+				     	   				<option>West Bengal</option>
+				     	   				<option>Kerala</option>
+				     	   				<option>Telangana</option>
+				     	   				<option>Mumbai</option>
+				     	   				<option>California</option>
+				     	   				<option>Melbourne</option>
+				     	   			</select>
+				     	   		</li>
+
+				     	   		<li><label for="country">Country</label>
+				     	   			<select>
+				     	   				<option>India</option>
+				     	   				<option>Australia</option>
+				     	   				<option>USA</option>
+				     	   				<option>Turkey</option>
+				                    </select>
+				     	   		</li>
+				     	   		<li><label for="strtname">Street Name:</label>
+				     	   		    <input type="text" name="strtname">
+				     	   		</li>
+				     	   		<li><label for="dno">D.No.</label>
+				     	   			<input type="text" name="dno">                                
+				     	   		</li>
+				     	   		
+			     	   	  </ul>
+		     	   </div>   <!-- inerblock end -->
+
+		     	    <!--<div class="innerblock"> <!-- Contains the pd, addr., edu. etc.-->
+		     	   	    <div class="headbox edu">Education</div>  <!-- Innerblock heading
+		     	          <ul>
+				     	   		<li><label for="quali">Qualificaion</label>
+				     	   			<input type="radio" name="quali">MCA
+				     	   			<input type="radio" name="quali">B.Tech
+				     	   			<input type="radio" name="quali">M.Tech
+				     	   			<input type="radio" name="quali">MBA
+				     	   	    </li>
+				     	   	    <li><label for="lang">Languages you know:</label>
+				     	   		    <input type="checkbox" name="lang">English
+				     	   		    <input type="checkbox" name="lang">Hindi
+				     	   		    <input type="checkbox" name="lang">Oria
+				     	   		    <input type="checkbox" name="lang">Bengali
+				     	   		    <input type="checkbox" name="lang">Telugu
+				     	   		    <input type="checkbox" name="lang">Chinese
+				     	   		</li>
+			     	   	  </ul>
+		     	   </div>   <!-- inerblock end -->
+
+		     	    <div class="innerblock"> <!-- Contains the pd, addr., edu. etc
+		     	   	    <div class="headbox abt">About Yourself </div>  <!-- Innerblock heading
+		     	          <ul>
+				     	   		<li><label for="us">Yoursellf</label>
+				     	   			<textarea maxlength="250"></textarea>
+				     	   		</li>
+				     	   		<li><label for="hobies">Hobies</label>
+				     	   		    <textarea maxlength="150"></textarea>
+				     	   		</li>
+
+			     	   	  </ul>
+		     	   </div>   <!-- inerblock end -->
+
+				    <!--<div id="register"><input type="button" value="Register"></div>
+		   	  
+		       </div>  <!-- End of the container-->
+		   <!--<div class="footer">@copyrights 2019</div>  <!-- Footer-->
+	    </form>
+	</body>	
+</html>

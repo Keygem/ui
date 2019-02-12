@@ -1,0 +1,71 @@
+<!-- Dt:- 1/2/2019 HTML Input Elements Demo.-->
+
+<html>
+<head>
+	<title> Demnstrating the Input Elements HTML</title>
+	<style type="text/css">
+		.title{
+			border  : 1px solid;
+			font-weight: bold;
+			font-size  : 20px;
+			padding : 10px;
+			margin  : 10px;
+			text-align: center;
+    		}
+    	li{
+    		list-style: none;
+    		border  : 1px;
+    		margin  : 15px;
+    		padding : 15px;
+    	}	
+
+  	</style>
+</head>
+
+<body>
+ 	<div class="title"> Students Details</div>
+		 <ul>
+		 	<li><label for="username">Enter your name: </label> 
+		 		    <input type="text" name="username">
+
+		 	</li>
+		 	<li><label for="age">Enter your age: </label> 
+		 	        <input type="text" name="age">
+		 	</li>
+		 	<li>
+		 		<label for="pswd">Enter your user password: </label> 
+		 		    <input type="password" name="pswd">
+		 	</li>
+		 	<li>
+		 		<label for="gender">Gender: </label>
+		 		<input type="radio" name="gender">M
+		 		<input type="radio" name="gender">F
+		 	</li>
+		 	<li><label for="checkbox">
+		 		What are the languages you know?</label>
+		 		<input type="checkbox" name="checkbox">English
+		 		<input type="checkbox" name="checkbox">Hindi 
+		 		<input type="checkbox" name="checkbox">Japanese
+		 		<input type="checkbox" name="checkbox">Telugu
+		 		<input type="checkbox" name="checkbox">Bengali
+		 	</li>
+		 	<li><label for="country">
+		 		From which country do you belong:</label>
+		 	    <select name="country">
+		 	    	<option> India      </option>
+		 	    	<option> Australia  </option>
+		 	    	<option> England    </option>
+		 	    	<option> China      </option>
+		 	    	<option> Bangladesh </option>
+		 	    </select>
+		 	</li>
+		 	<li><label name="bio">
+		 		Bio:</label>
+		 		<textarea rows="10" cols="40" name="bio"></textarea>
+		 	</li>
+		 	<li>
+		 		<input type="button" value="submit">
+		 	</li>
+		 </ul>
+</body>
+</html>

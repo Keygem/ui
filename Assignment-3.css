@@ -1,0 +1,62 @@
+	        .header, .footer, .container{
+	        	position: relative;
+	        	left: 240px;
+	        }
+
+			.header, .footer{
+				border: 1px solid;
+				height: 30px;
+				width : 800px;
+				padding: 10px;
+				margin: 5px;
+				text-align: center;
+				font-weight: bolder;
+	       	}
+	       	.container{
+	       		border: 1px solid;
+	       		height:470px;
+	       		width: 800px;
+	       		padding: 10px;
+	       		margin: 5px;
+	       		overflow: auto;
+	       	}
+	       	.leftblock, .rightblock{
+	       		border:  1px solid;
+	       		height:  470px;
+	       		margin: 5px;
+	       		float:left;
+	       	    overflow: auto;
+	       	}
+	       	.leftblock {
+	       		width: 30%;	       	      		
+	       	}
+	       	.rightblock{
+	       		width: 66%;
+	       	}
+	       	.item{
+	       	    border: 1px solid;
+	       		height: 150px;	       			       		
+	       		margin: 5px;
+	       		list-style: none;
+	       	}
+	       	.image, .details{
+	       		border: 1px solid;
+	       		height: 140px;
+	       		margin:5px;
+	       		float: left;
+	       		cursor:pointer; 
+
+	       	}
+	       	li{margin:10px}
+	       .details{width:64%; list-style: none; }
+	       .image{width:30%;  }
+	       .details li{
+	       	list-style:none;
+	       	clear:both;
+	       }
+	       .label, .lablecontent{float: left;}
+	       .label{ width:100px; }
+
+	       a{
+	       	text-decoration: none;
+	       }
